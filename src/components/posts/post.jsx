@@ -1,8 +1,8 @@
-import './post.css'
+import s from'./post.module.css'
 
 const Post = () => {
     return(
-        <div className='post'>
+        <div className={s.post}>
             <p>
                My post 1
             </p>

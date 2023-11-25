@@ -1,14 +1,14 @@
 
-import './sidebar.css'
+import s from './sidebar.module.css'
 
 const Sidebar = () => {
     return(
-        <div className="sidebar">
-            <div className="elem first">first</div>
-            <div className="elem second">second</div>
-            <div className="elem third">third</div>
-            <div className="elem fourth">fourth</div>
-            <div className="elem fifth">fifth</div>
+        <div className={s.sidebar}>
+            <div className={s.elem}>first</div>
+            <div className={s.elem}>second</div>
+            <div className={s.elem}>third</div>
+            <div className={s.elem}>fourth</div>
+            <div className={s.elem}>fifth</div>
         </div>
     )
 }

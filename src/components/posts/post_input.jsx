@@ -1,9 +1,9 @@
-import './post.css'
+import s from './post.module.css'
 
 const PostInput = () => {
     return(
-        <div className='input'>
-            <input ></input>
+        <div className={s.input}>
+            <input></input>
         </div>
     )
 }
