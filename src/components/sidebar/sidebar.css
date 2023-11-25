@@ -1,0 +1,29 @@
+.sidebar{
+    position: fixed;
+    background-color: rgb(247, 247, 247);
+    margin-top:8.5vh;
+    height: 100%;
+}
+.elem{
+    margin:3vh;
+    cursor: pointer;
+    color:black;
+}
+.elem:hover{
+    color:rgb(117, 119, 120);
+    animation-duration: 1s;
+    animation-name: bigger;
+    animation-iteration-count:unset;
+}
+
+@keyframes bigger{
+    from{
+        font-size: 100%;
+    }
+    50%{
+        font-size: 120%;
+    }
+    to{
+        font-size: 100%;
+    }
+}

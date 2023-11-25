@@ -1,0 +1,28 @@
+.main{
+    width: 60%;
+    padding-top: 10%;
+    margin-left: 24%;
+    display: flex;
+}
+.profile_photo{
+    width: 40%;
+    position: inherit;
+    
+}
+.profile_photo img{
+    width: 100%;
+}
+.profile_info{
+    margin-left: 10%;
+}
+.name{
+    margin-right: 40%;
+}
+.status{
+    display:relative;
+    margin-top: -10%;
+    margin-left: -60%;    
+}
+.desc{
+    margin-top: 20%;
+}

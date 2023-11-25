@@ -1,0 +1,35 @@
+header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #6dcfb0;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+.first{
+    display: flex;
+    width: 15vh;
+    justify-content: space-around;
+}
+.account{
+    width: 5vh;
+    height: 5vh;
+    margin-right: 1vh;
+    cursor: pointer;
+}
+
+.account img{
+    background-image: url(../img/avatar.jpg);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+.search-icon{
+    margin-top: 0.5vh;
+    cursor: pointer;
+}
+.logo{
+    cursor: pointer;
+}
